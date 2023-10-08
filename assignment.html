@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Assignment</title>
+</head>
+<body >
+    <form action="msg.html">
+        <fieldset>
+            <legend>Personal Details</legend>
+            <label for="fname">Name</label>
+            <input type="fname" required id="fname" name="fname" >
+            <br><br>
+            <label for="age">Age</label>
+            <input type="number" required id="age" name="age">
+            <br><br>
+            <label for="gender">Gender</label>
+            <input type="gender" required id="gender" name="gender" >
+            <br><br>
+            <label for="contact">Number</label>
+            <input type="contact" required id="contact" name="contact" pattern="[6-9]{1}[0-9]{9}">
+             </fieldset>
+
+             <fieldset>
+                <legend>Educational Details</legend>
+                <label for="yog">Graduation</label>
+                <input type="yop" id="yog" name="yog">
+                <datalist id="yop">
+                    <option value="">2019</option>
+                    <option value="">2020</option>
+                    <option value="">2021</option>
+                    <option value="">2022</option>
+                    <option value="">2023</option>
+                    </datalist>
+                    <br><br>
+                    <label for="">Department</label><br>
+                    <input type="radio" id="cs" name="dept">
+                    <label for="cs">CS</label>
+                    
+                    <input type="radio" id="Ec" name="dept">
+                    <label for="Ec">EC</label>
+                    
+                    <input type="radio" id="Mech" name="dept">
+                    <label for="Mech">MECH</label>
+                    <br><br>
+
+                    <label for="">Skills</label>
+                    <br>
+                    <input type="checkbox" id="HTML" name="HTML">
+                    <label for="HTML">HTML</label>
+                    <input type="checkbox" id="JAVA" name="JAVA">
+                    <label for="JAVA">JAVA</label>
+                    <input type="checkbox" id="CSS" name="CSS">
+                    <label for="CSS">CSS</label>
+             </fieldset>
+       <button>submit</button>
+
+    </form>
+</body>
+</html>
